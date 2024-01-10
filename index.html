@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a class="menu__btn" href="#">
+                <span></span>
+            </a>
+            <nav>
+                <a href="#">Магазины</a>
+                <a href="#">Акции</a>
+                <a href="#">Доставка и оплата</a>
+            </nav>
+
+            <div class="logo">
+                <div class="speedometr">
+                    <img src="/img/arrow.svg" alt="">
+                    <img src="/img/speed1.svg" alt="">
+                    <img src="/img/speed2.svg" alt="">
+                </div>
+                <h2>DRIVE MOTO</h2>
+            </div>
+            <div class="info">
+                <div class="map">
+                    <img src="/img/map.svg" alt="">
+                    <p>Москва, ул.Науки 25</p>
+                </div>
+                <div class="icons">
+                    <img src="img/heart.svg" alt="">
+                    <img src="img/user.svg" alt="">
+                    <img src="img/shop.svg" alt="">
+                </div>
+            </div>
+        </header>
+
+        <div class="navs">
+            <a href="#">Квадроциклы</a>
+            <a href="#">Катера</a>
+            <a href="#">Гидроциклы</a>
+            <a href="#">Лодки</a>
+            <a href="#">Вездеходы</a>
+            <a href="#">Снегоходы</a>
+            <a href="#">Двигатели</a>
+            <a href="#">Запчасти</a>
+        </div>
+
+
+        <section class="content__1">
+            <div class="slider">
+                <img src="img/slider.jpg" alt="">
+            </div>
+            <div class="tovar">
+                <a href="#">АКЦИЯ</a>
+                <span class="price">190 000 Р</span>
+                <span class="sell">225 000 Р</span>
+                <img src="img/suzuki.png" alt="">
+                <p>Лодочный мотор Suzuki DF9.9BRS</p>
+                <div class="until">
+                    <p>Акция действует до</p>
+                    <p>31.08.2020</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+<script>
+    const menu = document.querySelector('.menu__btn')
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('active')
+    })
+</script>
+
+</html>
